@@ -10,3 +10,10 @@
 **Telegram**: @viktorykings
 [LinkedIn][tag1]
 [tag2][[(https://www.linkedin.com/in/viktoria-korolenya-786391240)]
+===
+#Skills and Proficiency:
+*HTML5/CSS3
+*JavaScript Basics
+*ReactJS
+*React Router 
+*Git, GitHub
