@@ -1,3 +1,8 @@
 *{
-    color: #000;
+    background-color: darkslateblue;
+    color: #ddd;
+}
+.avatar{
+    max-width: 30%;
+    min-height: 30%;
 }
