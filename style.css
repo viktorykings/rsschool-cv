@@ -1,19 +1,138 @@
+html {
+    scroll-behavior: smooth; 
+  }
 *{
-    background-color: darkslateblue;
-    color: #ddd;
-    
-}
-h1{
-    text-align: center;
-}
-.avatar{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    list-style-type: none;
 }
-.avatar img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 30%;
-    height: auto;
+    
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}    
+h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 1px solid #000;
 
 }
+.side-item h2{
+    border-bottom: 1px solid #fff;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.main-row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+/* .main-container{
+    display: flex;
+    flex-wrap: wrap; */
+/* } */
+
+/* @media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+} */
+.navigate{
+    float: right;
+    width: 80%;
+    background-color: rgba(203,	153,	201, .5);
+}
+.nav-list{
+    
+    list-style: none;
+    /* margin-left: 20%; */
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+.nav-link{
+    padding: 0 30px;
+    line-height: 50px;
+    }
+.nav-link a{
+    transition: .3s;
+    color: #000;
+}
+.nav-list a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color:#fff;
+    border-bottom: 3px solid #fff;
+}
+.section{
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    /* display: flex;
+    justify-content: space-between; */
+    border-bottom: 1px solid rgb(203,153,201);
+    text-transform: none;
+}
+.section-items{
+    width: 80%;
+}
+
+.side-bar{
+    padding: 20px;
+    background-color: #9ed670;
+    width: 20%;
+    position: relative;
+    
+}
+.side-info{
+    position: sticky;
+    top: 20px;
+    color: #fff;
+    
+}
+.side-info h1{
+    display: block;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.side-info h2{
+    text-transform: uppercase;
+}
+.side-item{
+    border-bottom: 1px dotted #fff;
+    padding: 20px 0;
+}
+.side-item li{
+    text-transform: uppercase;
+}
+
+.user-pic{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.logo{
+    padding: 5px;
+    width: auto;
+    height: 45px;
+}
+.footer{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer:last-child{
+    margin-top: 20px;
+    margin-right: 20px;
+} 
