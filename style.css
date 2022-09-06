@@ -33,6 +33,7 @@ h2{
 .main-row{
     display: flex;
     flex-direction: row;
+    
     /* justify-content: space-between; */
 }
 /* .main-container{
@@ -84,16 +85,20 @@ h2{
 .section-items{
     width: 80%;
 }
-
-.side-bar{
+.rel{
+    position: relative;
     padding: 20px;
     background-color: #9ed670;
     width: 20%;
-    position: relative;
+}
+.side-bar{
+    
+    position: sticky;
+    
     
 }
 .side-info{
-    position: sticky;
+    
     top: 20px;
     color: #fff;
     
@@ -120,6 +125,9 @@ h2{
     overflow: hidden;
     border-radius: 50%;
 
+}
+.pic{
+    width: 20%;
 }
 .logo{
     padding: 5px;
